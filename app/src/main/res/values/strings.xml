@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FindImt</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="rechercher_un_rayon">Rechercher un rayon</string>
+    <string name="rechercher_un_article">Rechercher un Article</string>
+    <string name="rechercher_un_articlee">RECHERCHER UN ARTICLE</string>
+    <string name="football">Football</string>
+    <string name="running">Running</string>
+    <string name="v_lo">Vélo</string>
+    <string name="fitness">Fitness</string>
+    <string name="randonn_e">Randonnée</string>
+    <string name="natation">Natation</string>
+    <string name="sports_d_hiver">Sports d\'hiver</string>
+    <string name="tennis">Tennis</string>
+    <string name="sports_de_combat">Sports de Combat</string>
+    <string name="vetements_homme">Vetements Homme</string>
+    <string name="vetements_femme">Vetements Femme</string>
+    <string name="cabine_essayage">Cabine Essayage</string>
+    <string name="sports_de_glisse">Sports de Glisse</string>
+    <string name="basketball">BasketBall</string>
+    <string name="promotions">Promotions</string>
+    <string name="retour">Retour</string>
+</resources>

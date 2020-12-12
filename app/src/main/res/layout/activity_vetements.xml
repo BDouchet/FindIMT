@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:screenOrientation="landscape"
+    tools:context=".ActVetements">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Garcon"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Garçon"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Garçon" />
+
+            <Button
+                android:id="@+id/Homme_Sport"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Homme Sport"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Homme Sport" />
+
+            <Button
+                android:id="@+id/Homme_Life"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Homme Lifestyle"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Homme Lifestyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Fille"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Fille"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Fille" />
+
+            <Button
+                android:id="@+id/Femme_Sport"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Femme Sport"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Femme Sport" />
+
+            <Button
+                android:id="@+id/Femme_Life"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Femme Lifestyle"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Femme Lifestyle" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Retour"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/accent_material_light_1"
+            android:text="Retour"
+            android:textColor="@android:color/background_light"
+            tools:text="Retour" />
+    </TableLayout>
+
+</LinearLayout>

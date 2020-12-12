@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:screenOrientation="landscape"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    tools:context=".AvtivityR2">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Football"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Football"
+                android:textAlignment="center"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Football" />
+
+            <Button
+                android:id="@+id/Velo"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Vélo"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Vélo" />
+
+            <Button
+                android:id="@+id/Run"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/running"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Running" />
+
+            <Button
+                android:id="@+id/Fitness"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/fitness"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Fitness" />
+
+            <Button
+                android:id="@+id/Randonnee"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/randonn_e"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Randonnée" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Natation"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/natation"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Natation" />
+
+            <Button
+                android:id="@+id/Hiver"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Saisonnier"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Sports d'hiver" />
+
+            <Button
+                android:id="@+id/Tennis"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/tennis"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Tennis" />
+
+            <Button
+                android:id="@+id/Combat"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/sports_de_combat"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Sports de Combat" />
+
+            <Button
+                android:id="@+id/Basket"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/basketball"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="BasketBall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/Promo"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/promotions"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Promotions" />
+
+            <Button
+                android:id="@+id/Glisse"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/sports_de_glisse"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Sports de Glisse" />
+
+            <Button
+                android:id="@+id/Chaussures"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Chaussures"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Chaussures" />
+
+            <Button
+                android:id="@+id/Vetements"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Vêtements"
+                android:textColor="@color/accent_material_light_1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Vêtements" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Cabine"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/cabine_essayage"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Cabine Essayage" />
+
+            <Button
+                android:id="@+id/Retour"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/accent_material_light_1"
+                android:fontFamily="monospace"
+                android:text="@string/retour"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Retour" />
+        </LinearLayout>
+    </TableLayout>
+
+
+</LinearLayout>

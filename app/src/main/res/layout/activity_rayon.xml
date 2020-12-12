@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRayon">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@android:color/background_light" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@android:color/background_light"
+        app:backgroundTint="@color/accent_material_light_1"
+        app:fabSize="normal"
+        app:rippleColor="@android:color/background_light"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+
+</FrameLayout>
